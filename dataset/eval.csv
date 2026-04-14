@@ -1,0 +1,10 @@
+question,ground_truth,evolution_type,episode_done
+What are the three main steps of RLHF used to train InstructGPT?,"Supervised fine-tuning on demonstrations; training a reward model on human comparisons; reinforcement learning optimization (PPO) against the reward model.",simple,TRUE
+What alignment improvements did InstructGPT show compared to GPT-3?,"Higher human preference, improved truthfulness, reduced hallucinations in closed-domain tasks, and lower toxicity rates.",reasoning,TRUE
+On which types of tasks does ChatGPT outperform GPT-3.5 according to the zero-shot evaluation study?,"Arithmetic reasoning, natural language inference, question answering tasks favoring reasoning, dialogue tasks, and sentiment analysis.",reasoning,TRUE
+What are the main limitations of ChatGPT identified in the zero-shot evaluation paper?,"Underperformance on sequence tagging, symbolic reasoning, some commonsense tasks, and generating overly long summaries.",reasoning,TRUE
+How does the Augmented Language Models survey define a 'tool'?,"An external module called by the language model whose output is incorporated into the model’s context, such as retrievers, code interpreters, or external APIs.",simple,TRUE
+Why are augmented language models introduced as a solution to LLM limitations?,"Because traditional LLMs rely only on parametric memory and limited context, leading to hallucinations and reasoning failures, while augmentation via reasoning and tools expands effective context and computation.",reasoning,TRUE
+How did GPT-4 perform compared to GPT-3.5 and Bard on object-oriented programming assignments?,"GPT-4 achieved the highest scores and most working solutions, GPT-3.5 performed moderately well, and Bard performed worst, though all often violated OOP best practices.",simple,TRUE
+What recurring weakness did LLMs demonstrate in object-oriented programming tasks?,"They often produced working code but violated OOP best practices, such as improper abstraction, misuse of instanceof, and weak design structure.",reasoning,TRUE
+
